@@ -1,3 +1,14 @@
+## Holiday Planner  
+
+This project is inspired from Google Calendar UI which helps to plan things in advance. The current version which you see is a simplistic web view which would help your team to plan for leaves in advance. The application helps you to create, update or delete your plans and could be further extended for API calls if required as the current version uses only local storage. 
+
+Inspiring technologies like tailwind css, react hooks, react contexts have been used in the project for swift flow of data inside components making life easier for data access. 
+
+Snap shots of the screens are attached in the document in the resources section. 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
