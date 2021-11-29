@@ -23,7 +23,7 @@ function savedEventsReducer(state, {type, payload}){
                     var checkdate = new Date(payload.fromday)
                     checkdate.setDate(checkdate.getDate()+k)
                     var incrementer = {
-                        empdid: payload.empid,description:payload.description,label:payload.label,id:payload.id,fromday:checkdate, todate:checkdate
+                        empid: payload.empid,description:payload.description,label:payload.label,id:payload.id,fromday:checkdate, todate:checkdate
                     }
                     if(checkdate.getDay() !==0 && checkdate.getDay() !==6){
                         state = [...state,incrementer]
@@ -45,7 +45,7 @@ function savedEventsReducer(state, {type, payload}){
                     var newcheckdate = new Date(payload.fromday)
                     newcheckdate.setDate(newcheckdate.getDate()+newk)
                     var newincrementer = {
-                        empdid: payload.empid,description:payload.description,label:payload.label,id:payload.id,fromday:newcheckdate, todate:newcheckdate
+                        empid: payload.empid,description:payload.description,label:payload.label,id:payload.id,fromday:newcheckdate, todate:newcheckdate
                     }
                     if(newcheckdate.getDay() !==0 && newcheckdate.getDay() !==6){
                         state = [...state,newincrementer]
