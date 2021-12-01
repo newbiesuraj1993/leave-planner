@@ -1,8 +1,8 @@
 import { useState } from "react";
 import './Dropdown.css'
-function Dropdown({ selected, setSelected }) {
+function Dropdown({ selected, setSelected, options }) {
   const [isActive, setIsActive] = useState(false);
-  const options = ["Sick", "Casual", "Annual","Maternity/Paternity","Personal"];
+ 
 
   return (
     <div className="dropdown">
